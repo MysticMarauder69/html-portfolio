@@ -2,6 +2,11 @@ h1{color: purple;}
 h2{color: #ffd788;}
 h3{color: violet;}
 .contact{color: purple;}
+.grid-container{display: grid;
+grid-template-columns: 1fr 1fr;
+grid-template-rows: 100px 200px 200px;
+gap: 30px;}
+.first{grid-column: span 2;}
 #div1{background-color: #ffd788;
 height: 20px;
 width: 170px;
@@ -14,12 +19,12 @@ display: inline-block;}
 #div2{background-color: #ffd788;
     height: 20px;
     width: 170px;
-            display: inline-block;
 padding: 10px;
 border: solid purple 3px;
 border-radius: 10px;
 margin: 10px;
-text-align: center;}
-.twitch{color: #8A2BE2;}
+text-align: center;
+display: inline-block;}
 #bpara{font-weight: bold;}
+.twitch{color: blueviolet;}
 #contact1{border: solid; width: 265px; padding: 10px; border-radius: 30px; text-align: center;}
