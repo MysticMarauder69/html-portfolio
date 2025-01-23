@@ -9,10 +9,12 @@ margin: 10px;
 padding: 10px;
 border: solid purple 3px;
 border-radius: 10px;
-text-align: center;}
+text-align: center;
+display: inline-block;}
 #div2{background-color: #ffd788;
     height: 20px;
     width: 170px;
+            display: inline-block;
 padding: 10px;
 border: solid purple 3px;
 border-radius: 10px;
