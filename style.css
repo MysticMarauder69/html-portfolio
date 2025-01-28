@@ -6,10 +6,13 @@ font-size: 2rem;
 display: block;}
 h3{color: violet;}
 .contact{color: purple;}
-.grid2{display: inline-block;
-padding: 10px;}
-.grid3{display: inline-block;
-padding: 10px;}
+.grid-container{
+    display: grid;
+grid-template-columns: 1fr 1fr;
+grid-template-rows: 100px 200px 200px;
+gap: 30px;}
+.first-card{grid-column: span 2;}
+
 #div1{background-color: #ffd788;
 height: 20px;
 width: 170px;
@@ -30,22 +33,13 @@ text-align: center;
 display: inline-block;}
 #bpara{font-weight: bold;}
 .twitch{color: blueviolet;}
-#contact1{border: solid; width: 600px; padding: 10px; border-radius: 30px; text-align: center;}
+#contact1{border: solid; width: 265px; padding: 10px; border-radius: 30px; text-align: center;}
 @media (max-width: 680px) {
     h2 {
-  font-size: 1rem;
+  font-size: 2rem;
   text-align: center;
     }
-    h1{font-size: 2rem;
+    h1{font-size: 3rem;
       text-align: center;
     }
-    .grid3 img{margin-bottom: 10px;
-    width: 100%;
-display: inline;
-object-fit: cover;}
-.grid2 img{margin-bottom: 10px;
-    width: 100%;
-display: inline;
-object-fit: cover;}
-
 }
