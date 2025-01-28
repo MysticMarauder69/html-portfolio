@@ -30,7 +30,7 @@ text-align: center;
 display: inline-block;}
 #bpara{font-weight: bold;}
 .twitch{color: blueviolet;}
-#contact1{border: solid; width: 265px; padding: 10px; border-radius: 30px; text-align: center;}
+#contact1{border: solid; width: 500px; padding: 10px; border-radius: 30px; text-align: center;}
 @media (max-width: 680px) {
   h2 {
 font-size: 1rem;
