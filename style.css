@@ -12,8 +12,12 @@ grid-template-columns: 1fr 1fr;
 grid-template-rows: 100px 200px 200px;
 gap: 30px;}
 .first-card{grid-column: span 2;}
-.card{position: relative;
-top: 80px;}
+.card-one{position: absolute;
+top: 25%;
+display: inline-block;}
+.card-two{position: absolute;
+  top: 25%; left: 50%;
+display: inline-block;}
 #div1{background-color: #ffd788;
 height: 20px;
 width: 170px;
@@ -21,7 +25,8 @@ margin: 10px;
 padding: 10px;
 border: solid purple 3px;
 border-radius: 10px;
-text-align: center;}
+text-align: center;
+display: inline-block;}
 #div2{background-color: #ffd788;
     height: 20px;
     width: 170px;
@@ -29,16 +34,8 @@ padding: 10px;
 border: solid purple 3px;
 border-radius: 10px;
 margin: 10px;
-text-align: center;}
+text-align: center;
+display: inline-block;}
 #bpara{font-weight: bold;}
 .twitch{color: blueviolet;}
 #contact1{border: solid; width: 265px; padding: 10px; border-radius: 30px; text-align: center;}
-@media (max-width: 680px) {
-    h2 {
-  font-size: 2rem;
-  text-align: center;
-    }
-    h1{font-size: 3rem;
-      text-align: center;
-    }
-}
