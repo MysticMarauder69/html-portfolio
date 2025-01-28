@@ -1,9 +1,7 @@
 h1{color: purple;
-font-size: 4rem;
-display: block;}
+font-size: 3em;}
 h2{color: #ffd788;
-font-size: 2rem;
-display: block;}
+font-size: 2rem;}
 h3{color: violet;}
 .contact{color: purple;}
 .grid-container{
@@ -11,13 +9,8 @@ h3{color: violet;}
 grid-template-columns: 1fr 1fr;
 grid-template-rows: 100px 200px 200px;
 gap: 30px;}
+.card-one, .card-two{padding-top: 30px;}
 .first-card{grid-column: span 2;}
-.card-one{position: absolute;
-top: 25%;
-display: inline-block;}
-.card-two{position: absolute;
-  top: 25%; left: 50%;
-display: inline-block;}
 #div1{background-color: #ffd788;
 height: 20px;
 width: 170px;
@@ -39,3 +32,9 @@ display: inline-block;}
 #bpara{font-weight: bold;}
 .twitch{color: blueviolet;}
 #contact1{border: solid; width: 265px; padding: 10px; border-radius: 30px; text-align: center;}
+@media (max-width: 680px) {
+  h1{font-size: 2rem;
+    text-align: center;
+  }
+  h2{font-size: 1rem;
+  text-align: center;}}
