@@ -1,12 +1,19 @@
-h1{color: purple;}
-h2{color: #ffd788;}
+h1{color: purple;
+font-size: 4rem;
+display: block;}
+h2{color: #ffd788;
+font-size: 2rem;
+display: block;}
 h3{color: violet;}
 .contact{color: purple;}
-.grid-container{display: grid;
+.grid-container{
+    display: grid;
 grid-template-columns: 1fr 1fr;
 grid-template-rows: 100px 200px 200px;
 gap: 30px;}
-.first{grid-column: span 2;}
+.first-card{grid-column: span 2;}
+.card{position: relative;
+top: 80px;}
 #div1{background-color: #ffd788;
 height: 20px;
 width: 170px;
@@ -28,3 +35,12 @@ display: inline-block;}
 #bpara{font-weight: bold;}
 .twitch{color: blueviolet;}
 #contact1{border: solid; width: 265px; padding: 10px; border-radius: 30px; text-align: center;}
+@media (max-width: 680px) {
+    h2 {
+  font-size: 2rem;
+  text-align: center;
+    }
+    h1{font-size: 3rem;
+      text-align: center;
+    }
+}
